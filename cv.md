@@ -1,8 +1,8 @@
-#Aigu Musurkulova
+#Aigul Musurkulova
 
 #DOB: 08/07/1985
 
-#Contacts: aigulmus@gmail.com +996777332879
+#Contacts: aigulmus@gmail.com +996555190513
 
 #Area of professional interest: web development
 
