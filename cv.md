@@ -2,7 +2,7 @@
 
 #DOB: 08/07/1985
 
-#Contacts: aigulmus@gmail.com
+#Contacts: aigulmus@gmail.com +996777332879
 
 #Area of professional interest: web development
 
@@ -72,7 +72,6 @@ Administrative assistant/HR manager/Accountant Assistant, “RTRK Mars” LLC, O
 •	Greeting and directing visitors;
 •	Performing administrative and office support activities for the Company’s Departments;
 •	Sending out and receiving mail and packages;
-•	Maintain office supplies;
 •	Coordinating the Company’s drivers work, notifying drivers of daily assignments.
 
 
