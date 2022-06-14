@@ -5,43 +5,61 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #d1efdd;
+    background-color: #b59bb4;
 }
 
 header, footer {
     padding: 50px 0;
-    color: #0bff1f;
+   color: white;
     font-family: 'Anek Bangla', EB Garamond;
 }
+.header_container{
+  width: 100%;
+}
+.nav_menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+ }
 
 section {
     color: #1a5221;
     font-family: 'Anek Bangla', EB Garamond;
-    padding: 10px 0;
 }
 
 .container1 {
-    max-width: 80%;
-    margin: 0 auto;
+    width: 100%;
+    margin-top: 30px;
+
+}
+.container2{
+    width: 100%;
+
 }
 
 .horizon {
+    width: 100%;
     display: flex;
     flex-direction: column;
-}
+    align-items: center;
+   }
 
 .group {
     width: 80%;
     margin: 0 auto;
 }
-
-
+.pic{
+    width: 60%;
+    display: flex;
+  justify-content: center;
+}
 .me{
     width: 20%;
-    /* margin-left: 10%; */
-} 
 
-h2, h5 {
+}
+
+h2 {
     text-align: left;
     padding: 10px;
     color: rgb(71, 4, 239);
@@ -64,34 +82,63 @@ pre {
     font-weight: 500;
     text-transform: uppercase;
     line-height: 30px;
-} 
-
-.github_click img {
-    width: 50px;
-    height: 50px;
 }
+
 
 .hor_1 {
     text-align: left;
 }
 
-.github_click {
-    width: 30%;
-    display: flex;
-    justify-content: space-around;
-}
-
 header, footer {
-    height: 110px;
-    background-color: #144a21;
+    height: 140px;
+    background-color: #aa60aa;
+    color: #d1efdd;
 }
 
 hr {
     border: solid 1px rgb(101, 69, 69);
 }
-
+#octocat{
+    width:13%;
+}
 footer  {
+    width:100%;
+    }
+    .footer_container{
+    width:100%;
+    }
+
+.footer_main{
+    width:100%;
     display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+}
+
+#RSSchool_icon{
+    width:50%;
+}
+h4{
+text-align: left;
+padding: 10px;
+color: rgb(243, 243, 244);
+}
+.el_1{
+    width:40%;
+    display: flex;
+}
+.el_2{
+    width:30%;
+    display: flex;
+}
+
+.el_3{
+    width:30%;
+    display: flex;
+}
+.about{
+    text-align: center;
 }
 
 
