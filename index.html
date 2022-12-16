@@ -1,137 +1,163 @@
+
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My CV</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+            <li class="nav-item">
+              <a href="#languages" class="nav-link">Languages</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My CV</title>
-  <link rel="stylesheet" href="./style.css">
-</head>
+      <main class="main">
+        <div class="main-container">
+          <div class="column1">
+            <div class="section">
+               <img src="./cv_pic/photo_2022-05-16_11-16-59.jpg" alt="Aigul_me" class="pic">
+            </div>
+            <section class="section">
+              <h2 class="section-title" id="contacts">Contacts</h2>
+              <ul>
+                <li class="contact-item">E-mail: aigulmus@gmail.com</li>
+                <li class="contact-item">Telegram: @Grapeview2013</li>
+                <li class="contact-item">Phone:+996777327159</li>
+              </ul>
+            </section>
+            <section class="section">
+              <h2 class="section-title" id="skills">Skills:</h2>
+              <ul>
+                <li>HTML5</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Git</li>
+               </ul>
+            </section>
+            <section class="section">
+              <h2 class="section-title" id="languages">Languages:</h2>
+              <ul>
+                <li>Kyrgyz</li>
+                <li>Russian</li>
+                <li>German</li>
+                <li>English - B2</li>
+              </ul>
+            </section>
+          </div>
 
-<body>
-  <header>
-    <div class="header_container">
-      <nav>
-        <ul class="nav_menu">
-          <li class="nav_1"><a href="#">About</a></li>
-          <li class="nav_1"><a href="#">Skills</a></li>
-          <li class="nav_1"><a href="#">Education</a></li>
-          <li class="nav_1"><a href="#">Contacts</a></li>
-          <li class="nav_1"><a href="#">Code Example</a></li>
+          <div class="column2">
+            <section class="section" id="profile">
+              <h1 class="section-title h1">Aigul Musurkulova</h1>
+              <p>Junior Front-end Developer</p>
+            </section>
+            <section class="section" id="summary">
+              <h2 class="section-title" id="about">About me</h2>
+              <p>
+                I am a Front-end development enthusiast, constantly expanding my knowledge and skills.
+              </p>
+            </section>
+            <section class="section" id="education">
+              <h2 class="section-title">Education</h2>
+              <ul>
+                <li>
+                  Moscow State Linguistic University named after M.Tores -
+                  Translation and Interpretation (University Diploma);
+                </li>
+                <li>
+                  Kyrgyz-Russian Slavic University named after B. Yeltsin -
+                  Management(University Diploma);
+                </li>
+                <li>FSA-FLEX, High School Student Exchange Program</li>
+                <li>Chamber of Accountants and Auditors of the Kyrgyz republic -
+                  1C:Accounting courses participant(Completion certificate);
+                </li>
+                <li>ITC Bootcamp;</li>
+                <li>JavaScript/Front-end.Stage0</li>
+              </ul>
+            </section>
+            <section class="section">
+              <h2 class="section-title" id="projects">My projects</h2>
+              <ul>
+                <li>
+                  <a
+                    href="https://grapeview2013.github.io/rsschool-cv/"
+                    class="project"
+                    target="_blank"
+                    >My CV</a
+                  >
+                </li>
+              </ul>
+            </section>
+            <section class="section">
+              <h2 class="section-title" id="code">Code example</h2>
+               <pre class="code_task">
+                 function updateLight(current){
+                   let answer = "";
+                     switch (current){
+                     case "green":
+                     answer = "yellow";
+                     break;
+                     case "yellow":
+                     answer = "red";
+                     break;
+                     case "red":
+                     answer = "green";
+                     break;
+                       }
+                  return answer;
+                 }
+              </pre>
+            </section>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <ul class="nav-list">
+          <li>
+            <a href="https://github.com/Grapeview2013" class="footer-link"target="_blank">
+              <img id="octocat" width="100" src="./cv_pic/Octocat.png" alt="Octocat" >
+              <span class="github">GitHub</span>
+            </a>
+          </li>
+          <li>2022</li>
+          <li>
+            <a href="https://rs.school/js-stage0/" target="_blank">
+              <img
+                src="./cv_pic/RSSchoolicon.png"
+                alt="rsschool"
+                width="100"
+                class="rsschool"
+              />
+            </a>
+          </li>
         </ul>
-      </nav>
+      </footer>
     </div>
-  </header>
-  <section>
-    <div class="container1">
-      <div class="horizon">
-        <div class="pic">
-          <img src="./cv_pic/photo_2022-05-16_11-16-59.jpg" alt="cv_pic" class="me">
-        </div>
-        <div class="group">
-          <h1> Aigul Musurkulova</h1>
-          <hr>
-          <h3>Junior Front-end developer</h3>
-          <p class="about">
-            I am a Front-end development enthusiast. I am taking my first steps towards becoming a Front-end developer.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section>
-    <div class="container2">
-      <div class="horizon">
-        <div class="group">
-          <h2 class="hor_1">Skills</h2>
-          <ul>
-            <li>HTML 5</li>
-            <li>CSS 3</li>
-            <li>JS</li>
-            <li>Git</li>
-            <li>English - B2</li>
-          </ul>
-        </div>
-        <div class="group">
-          <h2 class="education">Education</h2>
-          <hr class="education">
-          <ul class="education">
-            <li>
-              Moscow State Linguistic University named after M.Tores -
-              Translation and Interpretation (University Diploma) ;
-            </li>
-            <li>
-              Kyrgyz-Russian Slavic University named after B. Yeltsin -
-              Management(University Diploma);
-            </li>
-            <li>FSA-FLEX, High School Student Exchange Program</li>
-            <li>Chamber of Accountants and Auditors of the Kyrgyz republic -
-              1C:Accounting courses participant(Completion certificate);
-            </li>
-            <li>ITC Bootcamp</li>
-            <li>RSSchool stage# 0</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section>
-    <div class="container2">
-      <div class="horizon">
-        <div>
-          <h2 class="hor_1">Contacts:</h2>
-          <ul>
-            <li>+996 777327159</li>
-            <li>aigulmus@gmail.com</li>
-            <li>Telegram: @Grapeview2013</li>
-          </ul>
-        </div>
-        <div class="group">
-          <h2>Code Example</h2>
-          <hr>
-          <pre class="code__wrapper-text">
- function updateLight(current){
-  let answer = "";
-    switch (current){
-    case "green":
-    answer = "yellow";
-    break;
-    case "yellow":
-    answer = "red";
-    break;
-    case "red":
-    answer = "green";
-    break;
-      }
- return answer;
-}
- </pre>
-        </div>
-      </div>
-    </div>
-  </section>
-  <footer>
-    <div class="footer_container">
-      <div class="footer_main">
-        <div class="el_1">
-          <a href="https://rs.school/js-stage0/">
-            <img id="RSSchool_icon" src="./cv_pic/RSSchoolicon.png" alt="rs_img">
-          </a>
-        </div>
-        <div class="el_2">
-          <h4>2022</h4>
-        </div>
-        <div class="el_3">
-          <a href="https://github.com/Grapeview2013" class="footer_link">
-            <h4>GitHub</h4>
-            <img id="octocat" src="./cv_pic/Octocat.png" alt="Octocat" />
-          </a>
-        </div>
-      </div>
-    </div>
-  </footer>
-</body>
-
+  </body>
 </html>
-
