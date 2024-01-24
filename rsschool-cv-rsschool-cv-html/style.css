@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@1,700&display=swap');
+html{
+   scroll-behavior: smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ body {
+    font-family: 'Chivo Mono', monospace;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: rgb(235, 222, 239);
+ }
+ .container {
+    min-width: 900px;
+    max-width: 1100px;
+    margin: 0 auto;
+ }
+ .header {
+    background-color: rgb(56, 12, 83);
+ }
+ .main {
+    background-color: rgb(237, 233, 235);
+ }
+ .footer {
+    background-color: rgb(56, 12, 83);
+    color: white;
+    padding: 10px;
+ }
+
+ .nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0 20px;
+    line-height: 70px;
+ }
+ .nav-link {
+    padding: 10px;
+    font-size: 18px;
+    color:black;
+    text-decoration: none;
+    /* transition: .1s; */
+    color: white;
+ }
+ .nav-link:hover {
+    background: rgb(243, 157, 223);
+    color: rgb(0, 0, 75);
+    font-weight: 900;
+    text-decoration: none;
+    border: none;
+    border-radius: 15px;
+ }
+
+ .main-container {
+    display: flex;
+    flex-direction: row;
+ }
+
+ .column1 {
+    background-color: rgb(158, 46, 189);
+    width: 850px;
+    padding: 20px 40px;
+ }
+ .column2 {
+    padding: 50px;
+
+ }
+ .section {
+    padding: 20px 0;
+ }
+ .pic {
+    width: 50%;
+ }
+
+ .section-title {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 4;
+ }
+ .h1 {
+    font-size: 40px;
+    letter-spacing: 0px;
+    font-weight: 900;
+    line-height: 2;
+ }
+ .project {
+    color:rgb(13, 14, 13);
+    text-decoration: none;
+ }
+ .project:hover {
+    color:rgb(248, 12, 248);
+    font-weight: 900;
+ }
+ .contact-item {
+    list-style: none;
+    line-height: 1.8;
+ }
+
+ .code_task {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 12pt;
+    background-color: rgb(73, 31, 132);
+    color: white;
+ }
+ 
+ .footer-link {
+    color: white;
+    text-decoration: none;
+ }
+ .footer-link:hover {
+    font-weight: 900;
+    color:rgb(210, 122, 198);
+ }
+ .github {
+    position: relative;
+    bottom: 20px;
+ }
+ .rsschool {
+    position: relative;
+    top:10px;
+ }
